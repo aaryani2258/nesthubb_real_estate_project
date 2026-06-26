@@ -73,6 +73,10 @@ This project can be deployed using:
 - Connect to a map API.
 - Store favorites in localStorage.
 
+## Live Demo
+
+[View NestHub on GitHub Pages](https://aaryani2258.github.io/nesthubb_real_estate_project/)
+
 ## Author
 
 Prepared for internship submission by Aaryani Bharathiraja.
