@@ -207,7 +207,7 @@ function card(p){
     <p>${p.type} • ${p.beds} BHK • ${p.area}</p>
     <p><strong>${p.price}</strong></p>
     <div class="card-actions">
-      <button class="btn btn-small" onclick="openModal(${p.id})">View Details</button>
+      <a class="btn btn-small" href="property-details.html?id=${p.id}">View Details</a>
       <button class="icon-btn ${saved.has(p.id) ? 'saved' : ''}" onclick="toggleSave(${p.id})">♥ Save</button>
     </div>
   </article>`;
