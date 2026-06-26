@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Skyline Crest",
+    "location": "Gachibowli",
+    "type": "Apartment",
+    "price": "₹1.8 Cr",
+    "beds": 3,
+    "area": "2100 sq ft",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Aurum Villas",
+    "location": "Kokapet",
+    "type": "Villa",
+    "price": "₹4.2 Cr",
+    "beds": 4,
+    "area": "3600 sq ft",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Urban Nest",
+    "location": "Madhapur",
+    "type": "Apartment",
+    "price": "₹1.4 Cr",
+    "beds": 2,
+    "area": "1450 sq ft",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Green Court",
+    "location": "Manikonda",
+    "type": "House",
+    "price": "₹96 L",
+    "beds": 3,
+    "area": "1780 sq ft",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "Regal Heights",
+    "location": "Secunderabad",
+    "type": "Apartment",
+    "price": "₹1.1 Cr",
+    "beds": 3,
+    "area": "1620 sq ft",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Palm Vista",
+    "location": "Kompally",
+    "type": "Villa",
+    "price": "₹2.3 Cr",
+    "beds": 4,
+    "area": "2900 sq ft",
+    "featured": true
+  },
+  {
+    "id": 7,
+    "name": "Serenity Park",
+    "location": "Sainikpuri",
+    "type": "House",
+    "price": "₹1.05 Cr",
+    "beds": 3,
+    "area": "1650 sq ft",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "name": "Bachupally Heights",
+    "location": "Bachupally",
+    "type": "Apartment",
+    "price": "₹78 L",
+    "beds": 2,
+    "area": "1220 sq ft",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "name": "Pragathi Royale",
+    "location": "Pragathi Nagar",
+    "type": "Apartment",
+    "price": "₹92 L",
+    "beds": 3,
+    "area": "1480 sq ft",
+    "featured": false
+  },
+  {
+    "id": 10,
+    "name": "Sunview Residency",
+    "location": "Suncity",
+    "type": "Villa",
+    "price": "₹2.8 Cr",
+    "beds": 4,
+    "area": "3100 sq ft",
+    "featured": true
+  },
+  {
+    "id": 11,
+    "name": "Meadow Residency",
+    "location": "Sangareddy",
+    "type": "House",
+    "price": "₹68 L",
+    "beds": 2,
+    "area": "1100 sq ft",
+    "featured": false
+  }
+]

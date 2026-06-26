@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NestHub | Properties</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="top-banner">
+    <marquee behavior="scroll" direction="left" scrollamount="6">
+      Find premium Hyderabad properties with filters for location, type, and price.
+    </marquee>
+  </div>
+
+  <header class="page-top">
+    <nav class="nav container">
+      <a class="brand" href="index.html">NestHub</a>
+      <button class="menu-btn" id="menuToggle">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="properties.html" class="active">Properties</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="btn btn-small">Contact</a>
+      </div>
+    </nav>
+
+    <section class="container page-hero">
+      <h1>Browse Hyderabad listings</h1>
+      <p>Search premium homes across Gachibowli, Madhapur, Kokapet, Manikonda, Secunderabad, Kompally, Sainikpuri, Bachupally, Pragathi Nagar, Sangareddy, and Suncity.</p>
+
+      <div class="filters">
+        <input id="searchInput" type="text" placeholder="Search locality or property name" />
+        <select id="locationFilter">
+          <option value="all">All Locations</option>
+          <option>Gachibowli</option>
+          <option>Madhapur</option>
+          <option>Kokapet</option>
+          <option>Manikonda</option>
+          <option>Secunderabad</option>
+          <option>Kompally</option>
+          <option>Sangareddy</option>
+          <option>Sainikpuri</option>
+          <option>Bachupally</option>
+          <option>Pragathi Nagar</option>
+          <option>Suncity</option>
+        </select>
+        <select id="typeFilter">
+          <option value="all">All Types</option>
+          <option>Apartment</option>
+          <option>Villa</option>
+          <option>House</option>
+        </select>
+        <button class="btn" onclick="applyFilters()">Search</button>
+      </div>
+    </section>
+  </header>
+
+  <main class="section container">
+    <div id="property-grid" class="grid-3"></div>
+  </main>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeModal()">×</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 NestHub Hyderabad.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
