@@ -241,54 +241,6 @@ function toggleSave(id){
 }
 window.toggleSave = toggleSave;
 
-function openModal(id){
-  const p = properties.find(x => x.id === id);
-  const modal = document.getElementById('modal');
-  const body = document.getElementById('modal-body');
-  if(!modal || !body || !p) return;
-
-  body.innerHTML = `
-    <div class="modal-grid">
-      <div>
-        <img src="${p.image}" alt="${p.name}">
-        <div class="modal-thumbs">
-          ${p.gallery.map(img => `<img src="${img}" alt="${p.name} gallery">`).join('')}
-        </div>
-      </div>
-      <div>
-        <div class="badge-row">
-          <span class="${badgeClass(p.badge)}">${p.badge}</span>
-          <span class="badge">${p.location}</span>
-        </div>
-        <h2>${p.name}</h2>
-        <p>${p.type} • ${p.beds} BHK • ${p.area}</p>
-        <p><strong>${p.price}</strong></p>
-        <p>Located in one of Hyderabad’s residential zones, this property is ideal for modern families and professionals.</p>
-        <ul>
-          <li>Verified listing</li>
-          <li>Modern interiors</li>
-          <li>Good connectivity</li>
-          <li>Premium neighborhood</li>
-        </ul>
-        <a href="contact.html" class="btn">Contact Now</a>
-      </div>
-    </div>
-  `;
-  modal.classList.add('show');
-}
-window.openModal = openModal;
-
-function closeModal(){
-  const modal = document.getElementById('modal');
-  if(modal) modal.classList.remove('show');
-}
-window.closeModal = closeModal;
-
-document.addEventListener('click', (e) => {
-  const modal = document.getElementById('modal');
-  if(modal && e.target === modal) closeModal();
-});
-
 const menuToggle = document.getElementById('menuToggle');
 if(menuToggle){
   menuToggle.addEventListener('click', () => {
