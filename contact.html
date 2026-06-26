@@ -26,12 +26,12 @@
 
   <main class="section container content-card">
     <h1>Contact NestHub</h1>
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name" />
-      <input type="email" placeholder="Email Address" />
-      <input type="text" placeholder="Preferred Area in Hyderabad" />
-      <textarea rows="5" placeholder="Tell us about your property requirement"></textarea>
-      <button class="btn" type="button">Send Inquiry</button>
+    <form class="contact-form" action="https://formspree.io/f/xpqgddzw" method="POST">
+      <input type="text" name="name" placeholder="Your Name" />
+      <input type="email" name="email" placeholder="Email Address" />
+      <input type="text" name="area" placeholder="Preferred Area in Hyderabad" />
+      <textarea name="message" rows="5" placeholder="Tell us about your property requirement"></textarea>
+      <button class="btn" type="submit">Send Inquiry</button>
     </form>
   </main>
 </body>
